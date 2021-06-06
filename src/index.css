@@ -1,0 +1,26 @@
+:root {
+    --app-background: hsl(0, 6%, 86%);
+    --button-add: hsl(128, 61%, 52%);
+    --button-edit: hsl(128, 61%, 52%);
+    --button-delete: hsl(0, 100%, 42%);
+    --button-text: hsl(0, 0%, 100%);
+    --task-background: hsl(0, 0%, 77%);
+    --task-background_alt: hsl(0, 0%, 70%);
+    --task-menu-background: hsl(229, 59%, 53%);
+    --task-menu-background_active: hsl(120, 59%, 53%);
+    --modal-background: hsla(0, 0%, 0%, 0.3);
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

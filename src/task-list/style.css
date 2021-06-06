@@ -1,0 +1,52 @@
+.task-list {
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    inline-size: 90vw;
+    max-inline-size: 60rem;
+}
+
+.task-menu {
+    position: sticky;
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 2fr;
+    top: 0;
+    padding-block-start: 1rem;
+    inline-size: 100%;
+    background-color: var(--app-background);
+}
+
+.task {
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 2fr;
+    inline-size: 100%;
+    background-color: var(--task-background);
+}
+
+.task:nth-child(odd) {
+    background-color: var(--task-background_alt);
+}
+
+.task__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-block-size: 2rem;
+}
+
+.task__edit {
+    display: flex;
+    cursor: pointer;
+    margin-inline-end: 1rem;
+    background-color: var(--button-edit);
+    color: var(--button-text);
+    border: 0;
+}
+
+.task__delete {
+    display: flex;
+    cursor: pointer;
+    background-color: var(--button-delete);
+    color: var(--button-text);
+    border: 0;
+}
