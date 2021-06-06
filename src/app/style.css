@@ -1,0 +1,19 @@
+.app {
+    position: relative;
+    min-height: calc(100vh - 1rem);
+    padding-block-start: 1rem;
+    background-color: var(--app-background);
+}
+
+.app__add {
+    margin-inline-end: auto;
+    margin-inline-start: 1rem;
+    display: flex;
+    cursor: pointer;
+    position: sticky;
+    top: 1rem;
+    z-index: 2;
+    background-color: var(--button-add);
+    color: var(--button-text);
+    border: 0;
+}

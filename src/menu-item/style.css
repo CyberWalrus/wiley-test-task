@@ -1,0 +1,13 @@
+.menu-item {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    user-select:none;
+    line-height: 2rem;
+    color: var(--button-text);
+    background-color: var(--task-menu-background);
+}
+
+.menu-item_active {
+    background-color: var(--task-menu-background_active);
+}
